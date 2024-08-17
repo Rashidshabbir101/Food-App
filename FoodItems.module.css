@@ -1,0 +1,51 @@
+.foodItemsContainer {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.foodItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.foodItem:last-child {
+  border-bottom: none;
+}
+
+.buyButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.buyButton:hover {
+  background-color: #0056b3;
+}
+
+.resetButton {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.resetButton:hover {
+  background-color: #c82333;
+}
